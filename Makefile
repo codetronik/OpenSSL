@@ -11,7 +11,7 @@ XROS_DEPLOYMENT_VERSION=1.0
 APPLETVOS_DEPLOYMENT_VERSION=12.0
 WATCHOS_DEPLOYMENT_VERSION=8.0
 
-SIGNING_IDENTITY ?= "iOS Developer"
+SIGNING_IDENTITY ?= "Apple Development: 규호 이 (YA6W6UP25K)"
 
 CWD := $(abspath $(patsubst %/,%,$(dir $(abspath $(lastword $(MAKEFILE_LIST))))))
 
