@@ -11,7 +11,7 @@ XROS_DEPLOYMENT_VERSION=1.0
 APPLETVOS_DEPLOYMENT_VERSION=12.0
 WATCHOS_DEPLOYMENT_VERSION=8.0
 
-SIGNING_IDENTITY ?= "Apple Distribution: Marcin Krzyzanowski (67RAULRX93)"
+SIGNING_IDENTITY ?= "iOS Developer"
 
 CWD := $(abspath $(patsubst %/,%,$(dir $(abspath $(lastword $(MAKEFILE_LIST))))))
 
