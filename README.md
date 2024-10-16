@@ -40,7 +40,7 @@ You don't have to use the pre-built binaries I provide. You can build it locally
 ```
 $ git clone https://github.com/krzyzanowskim/OpenSSL.git
 $ cd OpenSSL
-$ make SIGNING_IDENTITY="Apple Distribution"
+$ make
 ```
 
 The result of a build process is put inside [Frameworks](Frameworks/) directory.
